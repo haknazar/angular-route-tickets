@@ -35,7 +35,6 @@ export class AppComponent implements OnInit {
   }
 
   fixArray(s) {
-    //  let ordered=[]
     this.ordered.push(s);
     this.route.forEach(d => {
       if (s == d[0]) {
